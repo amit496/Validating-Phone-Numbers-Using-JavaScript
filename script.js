@@ -6,7 +6,7 @@
         console.log(inputVal);
         
         // Regex value
-        let numberRegex = /[0-9]+/;
+        let numberRegex = /^[0-9]{10}$/;
         // Conditions
         if (inputVal === '')
         {
